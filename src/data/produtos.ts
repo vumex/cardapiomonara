@@ -19,7 +19,7 @@ const imagePaths = {
 
 export const produtos: Produto[] = [
   { 
-    id: 1,
+    id: 13,
     nome: "Café", 
     preco: 59, 
     categoria: "Outros", 
@@ -130,7 +130,7 @@ export const produtos: Produto[] = [
     peso: "400g"
   },
   { 
-    id: 13,
+    id: 1,
     nome: "Queijo Nozinho", 
     preco: 35, 
     categoria: "Queijos", 
