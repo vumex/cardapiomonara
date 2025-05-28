@@ -31,7 +31,7 @@ export const produtos: Produto[] = [
     id: 1,
     nome: "Café", 
     preco: 59, 
-    categoria: "Outros", 
+    categoria: "Diversos", 
     descricao: "Diversas vezes premiado - grãos selecionados", 
     imagem: imagePaths.cafe,
     peso: "500g"
