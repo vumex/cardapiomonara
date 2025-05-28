@@ -106,8 +106,8 @@ function App() {
     <div className={`min-h-screen bg-amber-50 ${temaMobile ? 'tema-mobile' : 'tema-desktop'}`}>
       <div className="container mx-auto px-4 py-8">
         <CardapioCabecalho 
-          titulo="Cardápio Digital" 
-          subtitulo="Produtos artesanais de qualidade" 
+          titulo="Catálogo" 
+          subtitulo="Produtos de Pardinho" 
         />
         
         <div className="relative">
