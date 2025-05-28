@@ -19,7 +19,16 @@ const imagePaths = {
 
 export const produtos: Produto[] = [
   { 
-    id: 13,
+    id: 10,
+    nome: "Queijo Fresco", 
+    preco: 40, 
+    categoria: "Queijos", 
+    descricao: "Queijo fresco (grande) - a peça", 
+    imagem: imagePaths.queijoFresco,
+    peso: "Peça"
+  },
+  { 
+    id: 1,
     nome: "Café", 
     preco: 59, 
     categoria: "Outros", 
@@ -102,15 +111,6 @@ export const produtos: Produto[] = [
     peso: "300g"
   },
   { 
-    id: 10,
-    nome: "Queijo Fresco", 
-    preco: 40, 
-    categoria: "Queijos", 
-    descricao: "Queijo fresco (grande) - a peça", 
-    imagem: imagePaths.queijoFresco,
-    peso: "Peça"
-  },
-  { 
     id: 11,
     nome: "Queijo meia cura", 
     preco: 79, 
@@ -130,7 +130,7 @@ export const produtos: Produto[] = [
     peso: "400g"
   },
   { 
-    id: 1,
+    id: 13,
     nome: "Queijo Nozinho", 
     preco: 35, 
     categoria: "Queijos", 
