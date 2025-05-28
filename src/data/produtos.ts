@@ -23,7 +23,7 @@ export const produtos: Produto[] = [
     nome: "Café", 
     preco: 59, 
     categoria: "Outros", 
-    descricao: "Café 'Daqui do Sítio' - 500g - Grãos selecionados", 
+    descricao: "Diversas vezes premiado - grãos selecionados", 
     imagem: imagePaths.cafe,
     peso: "500g"
   },
@@ -32,7 +32,7 @@ export const produtos: Produto[] = [
     nome: "CuestAzul", 
     preco: 69, 
     categoria: "Queijos", 
-    descricao: "Queijo azul premiado - 300g", 
+    descricao: "Queijo com notas de mofo azul - premiado internacionalmente", 
     imagem: imagePaths.cuestAzul,
     destaque: true,
     peso: "300g"
@@ -42,7 +42,7 @@ export const produtos: Produto[] = [
     nome: "Cuestinha", 
     preco: 59, 
     categoria: "Queijos", 
-    descricao: "Queijo especial - 300g", 
+    descricao: "Maturado em cavernas de pedra", 
     imagem: imagePaths.cuestinha,
     peso: "300g"
   },
@@ -51,7 +51,7 @@ export const produtos: Produto[] = [
     nome: "Doce de Leite", 
     preco: 34, 
     categoria: "Doces", 
-    descricao: "Doce de Leite cremoso - 400g", 
+    descricao: "Doce de Leite cremoso", 
     imagem: imagePaths.doceLeite,
     peso: "400g"
   },
@@ -60,7 +60,7 @@ export const produtos: Produto[] = [
     nome: "Figo", 
     preco: 42, 
     categoria: "Doces", 
-    descricao: "Doce de figo orgânico - 600g", 
+    descricao: "Doce artesanal com figos orgânicos", 
     imagem: imagePaths.figo,
     peso: "600g"
   },
@@ -69,7 +69,7 @@ export const produtos: Produto[] = [
     nome: "Geleia", 
     preco: 20, 
     categoria: "Doces", 
-    descricao: "Geleia artesanal - 160g - Sabores: Amora, Damasco, Morango, Abacaxi", 
+    descricao: "Geleia 80% fruta, zero adição de açúcar - Sabores: morango, amora, damasco", 
     imagem: imagePaths.geleia,
     peso: "160g"
   },
@@ -78,7 +78,7 @@ export const produtos: Produto[] = [
     nome: "Goiabada", 
     preco: 18, 
     categoria: "Doces", 
-    descricao: "Goiabada cascão - 400g", 
+    descricao: "Goiabada cascão artesanal", 
     imagem: imagePaths.goiabada,
     peso: "400g"
   },
@@ -87,7 +87,7 @@ export const produtos: Produto[] = [
     nome: "Mandala", 
     preco: 69, 
     categoria: "Queijos", 
-    descricao: "Queijo premium tipo mandala - 300g", 
+    descricao: "Queijo complexo - 12 meses de maturação", 
     imagem: imagePaths.mandala,
     destaque: true,
     peso: "300g"
@@ -97,7 +97,7 @@ export const produtos: Produto[] = [
     nome: "Mandalinha", 
     preco: 59, 
     categoria: "Queijos", 
-    descricao: "Versão menor do queijo mandala - 300g", 
+    descricao: "Queijo complexo - 3 meses de maturação", 
     imagem: imagePaths.mandalinha,
     peso: "300g"
   },
@@ -125,7 +125,7 @@ export const produtos: Produto[] = [
     nome: "Cocada", 
     preco: 35, 
     categoria: "Doces", 
-    descricao: "Cocada cremosa - 400g", 
+    descricao: "Cocada cremosa", 
     imagem: imagePaths.cocada,
     peso: "400g"
   },
@@ -134,7 +134,7 @@ export const produtos: Produto[] = [
     nome: "Queijo Nozinho", 
     preco: 35, 
     categoria: "Queijos", 
-    descricao: "Mussarela nozinho - Aprox. 500g - Embalado a vácuo", 
+    descricao: "Mussarela nozinho - embalado a vácuo", 
     imagem: imagePaths.queijoNozinho,
     peso: "500g"
   }
