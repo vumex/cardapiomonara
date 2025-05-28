@@ -1,0 +1,110 @@
+.toast-notification {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%) translateY(100px);
+  background-color: #78350f;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  opacity: 0;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.toast-notification.show {
+  transform: translateX(-50%) translateY(0);
+  opacity: 1;
+}
+
+/* Animações para os cards de produtos */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.produto-card-animado {
+  animation: fadeIn 0.5s ease forwards;
+}
+
+/* Efeito de pulsação para produtos em destaque */
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(217, 119, 6, 0.7); }
+  70% { box-shadow: 0 0 0 10px rgba(217, 119, 6, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(217, 119, 6, 0); }
+}
+
+.produto-destaque {
+  animation: pulse 2s infinite;
+}
+
+/* Estilo para o botão de carrinho flutuante */
+.carrinho-btn {
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.carrinho-btn:hover {
+  transform: scale(1.1);
+}
+
+.carrinho-btn:active {
+  transform: scale(0.95);
+}
+
+/* Animação para o contador do carrinho */
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+  40% { transform: translateY(-5px); }
+  60% { transform: translateY(-3px); }
+}
+
+.carrinho-contador {
+  animation: bounce 1s ease;
+}
+
+/* Estilo para o overlay do carrinho */
+.carrinho-overlay {
+  backdrop-filter: blur(2px);
+  transition: opacity 0.3s ease;
+}
+
+/* Estilo para os botões de categoria */
+.categoria-btn {
+  transition: all 0.3s ease;
+}
+
+.categoria-btn:hover {
+  transform: translateY(-2px);
+}
+
+.categoria-btn.ativo {
+  transform: scale(1.05);
+}
+
+/* Responsividade para dispositivos móveis */
+@media (max-width: 640px) {
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  
+  .grid {
+    gap: 12px;
+  }
+}
+
+/* Tema geral */
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #4b5563;
+  background-color: #fffbeb;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+}
+
+.container {
+  max-width: 1200px;
+}
