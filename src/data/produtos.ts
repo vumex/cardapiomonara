@@ -28,15 +28,6 @@ export const produtos: Produto[] = [
     peso: "Peça"
   },
   { 
-    id: 1,
-    nome: "Café", 
-    preco: 59, 
-    categoria: "Diversos", 
-    descricao: "Diversas vezes premiado - grãos selecionados", 
-    imagem: imagePaths.cafe,
-    peso: "500g"
-  },
-  { 
     id: 2,
     nome: "CuestAzul", 
     preco: 69, 
@@ -137,5 +128,14 @@ export const produtos: Produto[] = [
     descricao: "Mussarela nozinho - embalado a vácuo", 
     imagem: imagePaths.queijoNozinho,
     peso: "500g"
-  }
+  },  
+  { 
+    id: 1,
+    nome: "Café", 
+    preco: 59, 
+    categoria: "Diversos", 
+    descricao: "Diversas vezes premiado - grãos selecionados", 
+    imagem: imagePaths.cafe,
+    peso: "500g"
+  },
 ];
