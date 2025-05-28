@@ -107,7 +107,7 @@ function App() {
       <div className="container mx-auto px-4 py-8">
         <CardapioCabecalho 
           titulo="Catálogo" 
-          subtitulo="Produtos de Pardinho" 
+          subtitulo="Produtos de Pardinho-SP" 
         />
         
         <div className="relative">
