@@ -84,7 +84,7 @@ function App() {
     const numeroWhatsApp = "5514998062541"; // Número fornecido pelo usuário
     
     // Construir a mensagem com os itens do carrinho
-    let mensagem = "Olá! Gostaria de fazer o seguinte pedido:\n\n";
+    let mensagem = "Olá, segue meu pedido:\n\n";
     
     carrinho.forEach(item => {
       mensagem += `• ${item.quantidade}x ${item.produto.nome} (${item.produto.peso}) - R$ ${(item.produto.preco * item.quantidade).toFixed(2)}\n`;
