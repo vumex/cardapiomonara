@@ -106,8 +106,8 @@ function App() {
     <div className={`min-h-screen bg-amber-50 ${temaMobile ? 'tema-mobile' : 'tema-desktop'}`}>
       <div className="container mx-auto px-4 py-8">
         <CardapioCabecalho 
-          titulo="Catálogo" 
-          subtitulo="Seu pedido de um jeito muito simples: sem cadastro, sem pagamento imediato e com contato direto com a vendedora por meio do Whatsapp!" 
+          titulo="Produtos de Pardinho-SP" 
+          subtitulo="Faça seu pedido sem cadastro, sem pagamento imediato e com contato direto com a vendedora via Whatsapp!" 
         />
         
         <div className="relative">
