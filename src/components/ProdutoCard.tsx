@@ -29,7 +29,7 @@ export const ProdutoCard: React.FC<ProdutoCardProps> = ({
         <img 
           src={produto.imagem} 
           alt={produto.nome} 
-          className="w-auto h-auto object-cover transition-transform duration-300 hover:scale-105"
+          className="w-full h-full max-w-xl object-cover transition-transform duration-300 hover:scale-105"
         />
         {produto.destaque && (
           <div className="absolute top-2 right-2 bg-amber-500 text-white rounded-full p-2 text-xs font-bold">
