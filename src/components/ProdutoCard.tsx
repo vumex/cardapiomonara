@@ -25,7 +25,7 @@ export const ProdutoCard: React.FC<ProdutoCardProps> = ({
         ${animado ? 'produto-card-animado' : ''}`}
       style={{ animationDelay }}
     >
-      <div className="relative h-52 overflow-hidden">
+      <div className="relative h-54 overflow-hidden">
         <img 
           src={produto.imagem} 
           alt={produto.nome} 
