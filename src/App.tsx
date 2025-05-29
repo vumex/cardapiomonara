@@ -107,7 +107,7 @@ function App() {
       <div className="container mx-auto px-4 py-8">
         <CardapioCabecalho 
           titulo="Catálogo" 
-          subtitulo="Produtos de Pardinho-SP" 
+          subtitulo="Seu pedido de um jeito muito simples: sem cadastro, sem pagamento imediato e com contato direto com a vendedora por meio do Whatsapp!" 
         />
         
         <div className="relative">
