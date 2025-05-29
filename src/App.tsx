@@ -154,8 +154,8 @@ function App() {
                   <ul className="divide-y divide-gray-200">
                     {carrinho.map(item => (
                       <li key={item.id} className="py-4 flex items-center">
-                        <div className="h-16 w-16 flex-shrink-0 overflow-hidden rounded-md border border-gray-200 mr-3">
-                          <img src={item.produto.imagem} alt={item.produto.nome} className="h-auto w-auto object-cover object-center" />
+                        <div className="h-18 w-16 flex-shrink-0 overflow-hidden rounded-md border border-gray-200 mr-3">
+                          <img src={item.produto.imagem} alt={item.produto.nome} className="h-full w-full object-cover object-center" />
                         </div>
                         <div className="flex-1">
                           <h3 className="font-medium text-gray-900">{item.produto.nome}</h3>
