@@ -28,6 +28,34 @@ export const produtos: Produto[] = [
     peso: "Peça"
   },
   { 
+    id: 4,
+    nome: "Doce de Leite", 
+    preco: 34, 
+    categoria: "Doces", 
+    descricao: "Doce de Leite cremoso", 
+    imagem: imagePaths.doceLeite,
+    peso: "400g"
+  },
+  { 
+    id: 11,
+    nome: "Queijo meia cura", 
+    preco: 79, 
+    categoria: "Queijos", 
+    descricao: "Queijo meia cura - escolha o peso", 
+    imagem: imagePaths.queijoMeiaCura,
+    destaque: true,
+    peso: "Kg"
+  },
+  { 
+    id: 5,
+    nome: "Figo", 
+    preco: 42, 
+    categoria: "Doces", 
+    descricao: "Doce artesanal com figos orgânicos", 
+    imagem: imagePaths.figo,
+    peso: "600g"
+  },
+  { 
     id: 2,
     nome: "CuestAzul", 
     preco: 69, 
@@ -45,24 +73,6 @@ export const produtos: Produto[] = [
     descricao: "Maturado em cavernas de pedra", 
     imagem: imagePaths.cuestinha,
     peso: "300g"
-  },
-  { 
-    id: 4,
-    nome: "Doce de Leite", 
-    preco: 34, 
-    categoria: "Doces", 
-    descricao: "Doce de Leite cremoso", 
-    imagem: imagePaths.doceLeite,
-    peso: "400g"
-  },
-  { 
-    id: 5,
-    nome: "Figo", 
-    preco: 42, 
-    categoria: "Doces", 
-    descricao: "Doce artesanal com figos orgânicos", 
-    imagem: imagePaths.figo,
-    peso: "600g"
   },
   { 
     id: 6,
@@ -100,16 +110,6 @@ export const produtos: Produto[] = [
     descricao: "Queijo complexo - 3 meses de maturação", 
     imagem: imagePaths.mandalinha,
     peso: "300g"
-  },
-  { 
-    id: 11,
-    nome: "Queijo meia cura", 
-    preco: 79, 
-    categoria: "Queijos", 
-    descricao: "Queijo meia cura - escolha o peso", 
-    imagem: imagePaths.queijoMeiaCura,
-    destaque: true,
-    peso: "Kg"
   },
   { 
     id: 12,
