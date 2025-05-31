@@ -21,7 +21,7 @@ export const produtos: Produto[] = [
   { 
     id: 10,
     nome: "Queijo Fresco", 
-    preco: 40, 
+    preco: 42, 
     categoria: "Queijos", 
     descricao: "Queijo fresco (grande) - a peça", 
     imagem: imagePaths.queijoFresco,
