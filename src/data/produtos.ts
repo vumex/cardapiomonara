@@ -79,7 +79,7 @@ export const produtos: Produto[] = [
     nome: "Geleia", 
     preco: 20, 
     categoria: "Doces", 
-    descricao: "Geleia 80% fruta, zero adição de açúcar - Sabores: morango, amora, damasco", 
+    descricao: "Geleia 80% fruta, zero adição de açúcar - Sabores: morango e amora", 
     imagem: imagePaths.geleia,
     peso: "160g"
   },
