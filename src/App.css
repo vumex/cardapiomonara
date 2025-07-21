@@ -108,3 +108,77 @@ h1, h2, h3, h4, h5, h6 {
 .container {
   max-width: 1200px;
 }
+
+/* Melhorias para mobile - três colunas */
+@media (max-width: 640px) {
+  .container {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  
+  .grid {
+    gap: 8px;
+  }
+  
+  /* Otimização para texto em cards pequenos */
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  
+  /* Melhor legibilidade em telas pequenas */
+  .produto-card-mobile {
+    min-height: 200px;
+  }
+  
+  /* Botões de categoria mais compactos no mobile */
+  .categoria-btn {
+    font-size: 0.75rem;
+    padding: 0.5rem 0.75rem;
+  }
+  
+  /* Campo de busca otimizado para mobile */
+  input[type="text"] {
+    font-size: 16px; /* Evita zoom no iOS */
+  }
+}
+
+/* Melhorias visuais gerais */
+.produto-destaque {
+  position: relative;
+}
+
+.produto-destaque::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: linear-gradient(45deg, #f59e0b, #d97706, #b45309);
+  border-radius: 10px;
+  z-index: -1;
+}
+
+/* Animação suave para hover em mobile */
+@media (hover: hover) {
+  .produto-card:hover {
+    transform: translateY(-2px);
+  }
+}
+
+/* Melhor contraste para acessibilidade */
+.text-amber-900 {
+  color: #78350f;
+}
+
+.bg-amber-600 {
+  background-color: #d97706;
+}
+
+.bg-amber-600:hover {
+  background-color: #b45309;
+}
+

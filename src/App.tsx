@@ -182,6 +182,34 @@ function App() {
               </div>
               
               <div className="border-t p-4">
+                {/* Indicador de frete grátis */}
+                {totalCarrinho < 100 && totalCarrinho > 0 && (
+                  <div className="mb-4 p-3 bg-amber-50 rounded-lg border border-amber-200">
+                    <div className="flex justify-between items-center mb-2">
+                      <span className="text-sm font-medium text-amber-800">
+                        Faltam R$ {(100 - totalCarrinho).toFixed(2)} para FRETE GRÁTIS
+                      </span>
+                      <span className="text-xs text-amber-600">🚚</span>
+                    </div>
+                    <div className="w-full bg-amber-200 rounded-full h-2">
+                      <div 
+                        className="bg-amber-600 h-2 rounded-full transition-all duration-300"
+                        style={{ width: `${Math.min((totalCarrinho / 100) * 100, 100)}%` }}
+                      ></div>
+                    </div>
+                  </div>
+                )}
+                
+                {totalCarrinho >= 100 && (
+                  <div className="mb-4 p-3 bg-green-50 rounded-lg border border-green-200">
+                    <div className="flex items-center justify-center">
+                      <span className="text-sm font-medium text-green-800">
+                        🎉 Parabéns! Você ganhou FRETE GRÁTIS!
+                      </span>
+                    </div>
+                  </div>
+                )}
+                
                 <div className="flex justify-between text-lg font-bold mb-4">
                   <span>Total:</span>
                   <span>R$ {totalCarrinho.toFixed(2)}</span>
