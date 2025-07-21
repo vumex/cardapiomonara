@@ -87,7 +87,7 @@ function App() {
     let mensagem = "Olá, segue meu pedido:\n\n";
     
     carrinho.forEach(item => {
-      mensagem += `• ${item.quantidade}x ${item.produto.nome} (${item.produto.peso}) - R$ ${(item.produto.preco * item.quantidade).toFixed(2)}\n`;
+      mensagem += `• ${item.quantidade}x ${item.produto.nome} (${item.produto.peso}) - R$ ${(item.produto.preco * item.quantidade).toFixed(2).replace('.', ',')}\n`;
     });
     
     mensagem += `\nTotal: R$ ${totalCarrinho.toFixed(2)}`;
@@ -212,7 +212,7 @@ function App() {
                 
                 <div className="flex justify-between text-lg font-bold mb-4">
                   <span>Total:</span>
-                  <span>R$ {totalCarrinho.toFixed(2)}</span>
+                  <span>R$ {totalCarrinho.toFixed(2).replace(".", ",")}</span>
                 </div>
                 <button 
                   className="w-full bg-green-600 hover:bg-green-700 text-white py-3 rounded-lg font-medium transition-colors duration-300 flex items-center justify-center"

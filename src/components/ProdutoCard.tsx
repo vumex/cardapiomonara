@@ -43,7 +43,7 @@ export const ProdutoCard: React.FC<ProdutoCardProps> = ({
         <p className="text-gray-600 text-xs sm:text-sm mb-1 line-clamp-2 hidden sm:block">{produto.descricao}</p>
         <p className="text-gray-500 text-xs mb-2">{produto.peso}</p>
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mt-2 sm:mt-4 gap-2">
-          <span className="text-amber-800 font-bold text-sm sm:text-lg">R$ {produto.preco.toFixed(2)}</span>
+          <span className="text-amber-800 font-bold text-sm sm:text-lg">R$ {produto.preco.toFixed(2).replace(".", ",")}</span>
           <button 
             className="bg-amber-600 hover:bg-amber-700 text-white px-2 py-1 sm:px-3 sm:py-1 rounded-full text-xs sm:text-sm transition-colors duration-300 w-full sm:w-auto"
             onClick={(e) => {
