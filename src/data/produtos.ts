@@ -39,12 +39,12 @@ export const produtos: Produto[] = [
   { 
     id: 11,
     nome: "Queijo meia cura", 
-    preco: 79, 
+    preco: 39, 
     categoria: "Queijos", 
-    descricao: "Queijo meia cura - escolha o peso", 
+    descricao: "Queijo meia cura", 
     imagem: imagePaths.queijoMeiaCura,
     destaque: true,
-    peso: "Kg"
+    peso: "500g"
   },
   { 
     id: 5,
