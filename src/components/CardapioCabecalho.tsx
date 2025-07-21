@@ -12,7 +12,7 @@ export const CardapioCabecalho: React.FC<CardapioCabecalhoProps> = ({ titulo, su
       <p className="text-base sm:text-lg md:text-xl mb-4 opacity-90">{subtitulo}</p>
       <div className="bg-white/20 backdrop-blur-sm rounded-lg p-3 sm:p-4 inline-block">
         <p className="text-sm sm:text-base font-semibold">
-          🚀 <span className="text-yellow-300">FRETE GRÁTIS</span> para Cambuci e Vila Mariada (SP) em pedidos acima de R$ 100,00
+          🚀 <span className="text-yellow-300">FRETE GRÁTIS</span> para os bairros de São Paulo: Aclimação, Cambuci e Vila Mariana em pedidos acima de R$ 100,00
         </p>
       </div>
     </div>
