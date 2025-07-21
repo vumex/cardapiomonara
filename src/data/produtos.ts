@@ -32,7 +32,7 @@ export const produtos: Produto[] = [
     nome: "Doce de Leite", 
     preco: 34, 
     categoria: "Doces", 
-    descricao: "Delicassis", 
+    descricao: "Delicássis", 
     imagem: imagePaths.doceLeite,
     peso: "400g"
   },
@@ -88,7 +88,7 @@ export const produtos: Produto[] = [
     nome: "Goiabada", 
     preco: 18, 
     categoria: "Doces", 
-    descricao: "Cascão artesanal", 
+    descricao: "Mineirão - Cascão artesanal", 
     imagem: imagePaths.goiabada,
     peso: "400g"
   },
