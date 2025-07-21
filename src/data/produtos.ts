@@ -23,7 +23,7 @@ export const produtos: Produto[] = [
     nome: "Queijo Fresco", 
     preco: 42, 
     categoria: "Queijos", 
-    descricao: "Queijo fresco (grande) - a peça", 
+    descricao: "Artesanal - a peça", 
     imagem: imagePaths.queijoFresco,
     peso: "Peça"
   },
@@ -32,26 +32,26 @@ export const produtos: Produto[] = [
     nome: "Doce de Leite", 
     preco: 34, 
     categoria: "Doces", 
-    descricao: "Doce de Leite cremoso", 
+    descricao: "Delicassis", 
     imagem: imagePaths.doceLeite,
     peso: "400g"
   },
   { 
     id: 11,
     nome: "Queijo meia cura", 
-    preco: 79, 
+    preco: 39, 
     categoria: "Queijos", 
-    descricao: "Queijo meia cura - escolha o peso", 
+    descricao: "Artesanal - ", 
     imagem: imagePaths.queijoMeiaCura,
     destaque: true,
     peso: "Kg"
   },
   { 
     id: 5,
-    nome: "Figo", 
+    nome: "Doce de Figo", 
     preco: 42, 
     categoria: "Doces", 
-    descricao: "Doce artesanal com figos orgânicos", 
+    descricao: "Artesanal com figos orgânicos", 
     imagem: imagePaths.figo,
     peso: "600g"
   },
@@ -60,7 +60,7 @@ export const produtos: Produto[] = [
     nome: "CuestAzul", 
     preco: 69, 
     categoria: "Queijos", 
-    descricao: "Queijo com notas de mofo azul - premiado internacionalmente", 
+    descricao: "Notas de mofo azul - premiado internacionalmente", 
     imagem: imagePaths.cuestAzul,
     destaque: true,
     peso: "300g"
@@ -79,7 +79,7 @@ export const produtos: Produto[] = [
     nome: "Geleia", 
     preco: 20, 
     categoria: "Doces", 
-    descricao: "Geleia 80% fruta, zero adição de açúcar - Sabores: morango e amora", 
+    descricao: "80% FRUTA, zero adição de açúcar - Sabores: morango e amora", 
     imagem: imagePaths.geleia,
     peso: "160g"
   },
@@ -88,7 +88,7 @@ export const produtos: Produto[] = [
     nome: "Goiabada", 
     preco: 18, 
     categoria: "Doces", 
-    descricao: "Goiabada cascão artesanal", 
+    descricao: "Cascão artesanal", 
     imagem: imagePaths.goiabada,
     peso: "400g"
   },
@@ -97,7 +97,7 @@ export const produtos: Produto[] = [
     nome: "Mandala", 
     preco: 69, 
     categoria: "Queijos", 
-    descricao: "Queijo complexo - 12 meses de maturação", 
+    descricao: "12 meses de maturação", 
     imagem: imagePaths.mandala,
     destaque: true,
     peso: "300g"
@@ -107,7 +107,7 @@ export const produtos: Produto[] = [
     nome: "Mandalinha", 
     preco: 59, 
     categoria: "Queijos", 
-    descricao: "Queijo complexo - 3 meses de maturação", 
+    descricao: "3 meses de maturação", 
     imagem: imagePaths.mandalinha,
     peso: "300g"
   },
@@ -116,7 +116,7 @@ export const produtos: Produto[] = [
     nome: "Cocada", 
     preco: 35, 
     categoria: "Doces", 
-    descricao: "Cocada cremosa", 
+    descricao: "Delicassis - Cremosa", 
     imagem: imagePaths.cocada,
     peso: "400g"
   },
